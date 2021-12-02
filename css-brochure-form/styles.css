@@ -1,0 +1,65 @@
+body {
+  text-transform: uppercase;
+  justify-content: space-evenly;
+}
+
+h2 {
+  color: #ec5d57;
+  text-align: center;
+  font-family: Brandon Grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+input,
+select,
+label {
+  display: block;
+  width: 50%;
+  margin: auto;
+  font-family: Brandon Grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  padding-left: 10px;
+  font-size: 10px;
+}
+
+input,
+select {
+  height: 37px;
+  border-radius: 5px;
+  border: 1px solid #b1b1b1;
+}
+
+input::placeholder {
+  color: #b1b1b1;
+  font-size: 12px;
+  font-family: AtlasGrotesk, sans-serif;
+}
+
+label {
+  margin-top: 15px;
+  height: 17px;
+}
+
+select {
+  background-color: #f3f3f3;
+  font-size: 13px;
+}
+
+button {
+  font-family: Brandon Grotesque, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  background-color: #ec5d57;
+  color: white;
+  border-radius: 60px;
+  width: 85px;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 1065px;
+}
