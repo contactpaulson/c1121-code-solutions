@@ -16,7 +16,7 @@ input,
 select,
 label {
   display: block;
-  width: 50%;
+  width: 25%;
   margin: auto;
   font-family: Brandon Grotesque, sans-serif;
   font-style: normal;
@@ -61,5 +61,5 @@ button {
   border: none;
   padding-top: 7px;
   padding-bottom: 7px;
-  margin-left: 1065px;
+  margin-left: 875px;
 }
