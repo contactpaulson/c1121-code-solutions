@@ -10,6 +10,11 @@ body {
   justify-content: space-evenly;
 }
 
+.container {
+  width: 25%;
+  margin: 0 auto;
+}
+
 h2 {
   color: #ec5d57;
   text-align: center;
@@ -19,17 +24,16 @@ h2 {
   font-size: 16px;
 }
 
-input,
-select,
-label {
+.name {
   display: block;
-  width: 25%;
-  margin: auto;
   font-family: Brandon Grotesque, sans-serif;
   font-style: normal;
   font-weight: 800;
   padding-left: 10px;
   font-size: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 input,
@@ -37,6 +41,7 @@ select {
   height: 37px;
   border-radius: 5px;
   border: 1px solid #b1b1b1;
+  align-items: center;
 }
 
 input::placeholder {
@@ -71,7 +76,5 @@ div > button {
 }
 
 .newButton {
-  display: flex;
-  justify-content: center;
-  margin-left: 297px;
+  text-align: right;
 }
