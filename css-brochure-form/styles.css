@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  margin: 0; */
+
 body {
   text-transform: uppercase;
   justify-content: space-evenly;
@@ -48,7 +55,7 @@ select {
   font-size: 13px;
 }
 
-button {
+div > button {
   font-family: Brandon Grotesque, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -61,5 +68,10 @@ button {
   border: none;
   padding-top: 7px;
   padding-bottom: 7px;
-  margin-left: 875px;
+}
+
+.newButton {
+  display: flex;
+  justify-content: center;
+  margin-left: 297px;
 }
