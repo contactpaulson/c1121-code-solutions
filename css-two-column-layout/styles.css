@@ -32,10 +32,8 @@ p {
   flex-wrap: wrap;
 }
 
-.column-fourth {
+.column-half {
   width: calc(200% / 4);
-  display: flex;
-  justify-content: center;
 }
 
 img {
@@ -54,11 +52,11 @@ h3 {
   width: 175px;
 }
 
-.column-fourth.top {
+.column-half.top {
   margin-bottom: 40px;
 }
 
-.column-fourth.bottom {
+.column-half.bottom {
   margin-bottom: 20px;
 }
 
@@ -73,4 +71,9 @@ button {
   font-size: 9px;
   padding: 6px 24px;
   margin-top: -2px;
+}
+
+.row-column {
+  display: flex;
+  justify-content: center;
 }
