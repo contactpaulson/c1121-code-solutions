@@ -36,9 +36,6 @@ h2,
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: -15px -10px;
-
-    /* flex-direction: row; */
 }
 
 .column-third p {
@@ -58,15 +55,16 @@ h2,
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 25px;
 }
 
 .headers {
   font-size: 12px;
+  height: 30px;
 }
 
 .row.margin {
