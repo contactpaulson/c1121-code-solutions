@@ -73,7 +73,6 @@ button {
   margin-top: -2px;
 }
 
-.row-column {
-  display: flex;
+.column {
   justify-content: center;
 }
