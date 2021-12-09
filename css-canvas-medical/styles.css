@@ -59,6 +59,7 @@ a {
   justify-content: center;
   padding-left: 70px;
   padding-top: 100px;
+  position: absolute;
 }
 
 .overlay {
