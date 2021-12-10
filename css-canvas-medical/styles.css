@@ -48,7 +48,7 @@ a {
   height: 640px;
   position: relative;
   object-fit: cover;
-  width: 1257px;
+  width: 1210px;
 }
 
 .hero-text {
@@ -156,4 +156,9 @@ h3 {
 
 .foot-color {
   color: ##525351;
+}
+
+.nav-button {
+  width: 110px;
+  font-size: 12px;
 }
