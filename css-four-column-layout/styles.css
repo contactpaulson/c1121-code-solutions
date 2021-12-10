@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Barlow, sans-serif;
+  background-color: #f7f8fa;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.header {
+  justify-content: center;
+}
+
+.column-fourth {
+  width: 100%;
+}
+
+.columns {
+  text-align: center;
+  margin: 0 250px;
+}
+
+.image-screen {
+  height: 350px;
+}
+
+.image-icon {
+  height: 40px;
+}
+
+.heading {
+  font-size: 10px;
+}
+
+.text {
+  font-size: 8px;
+}
