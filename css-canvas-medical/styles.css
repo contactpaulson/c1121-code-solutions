@@ -16,7 +16,6 @@ body {
 }
 
 .nav-links {
-  display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
@@ -52,7 +51,6 @@ a {
 }
 
 .hero-text {
-  display: flex;
   flex-direction: column;
   color: white;
   width: 470px;
@@ -69,8 +67,7 @@ a {
   width: 100%;
 }
 
-footer {
-  display: flex;
+.foot {
   background-color: #fafafa;
   padding-left: 40px;
   height: 70px;
@@ -88,10 +85,6 @@ footer {
 .heading {
   width: 375px;
   margin: auto;
-}
-
-.practices {
-  display: flex;
 }
 
 .learn-more {
@@ -152,9 +145,6 @@ h3 {
 
 .footer {
   margin-left: 25px;
-}
-
-.foot-color {
   color: ##525351;
 }
 
