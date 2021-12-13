@@ -1,0 +1,154 @@
+body {
+  font-family: Avenir, sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.nav-links {
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.head {
+  margin: 0 auto;
+  border-bottom: 1px solid lightgray;
+  padding: 0 5%;
+}
+
+.column-half > img {
+  height: 20px;
+  margin: 15px 0;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 12px;
+}
+
+.hero {
+  padding: 65px;
+}
+
+.layout {
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  height: 640px;
+  position: relative;
+  object-fit: cover;
+  width: 1210px;
+}
+
+.hero-text {
+  flex-direction: column;
+  color: white;
+  width: 470px;
+  justify-content: center;
+  padding-left: 70px;
+  padding-top: 100px;
+  position: absolute;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(126 117 117 / 75%));
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.foot {
+  background-color: #fafafa;
+  padding-left: 40px;
+  height: 70px;
+  align-items: center;
+}
+
+.locations {
+  flex-direction: column;
+  background-color: #fafafa;
+  text-align: center;
+  height: 200px;
+  color: #6f6f6f;
+}
+
+.heading {
+  width: 375px;
+  margin: auto;
+}
+
+.learn-more {
+  padding-top: 140px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.button-more {
+  text-align: end;
+  padding-right: 50px;
+}
+
+.more-info {
+  background-color: #525351;
+  height: 300px;
+  padding-left: 50px;
+  color: white;
+  align-items: baseline;
+  padding-top: 45px;
+}
+
+.column-fourth > img {
+  height: 20px;
+}
+
+.column-fourth {
+  width: 25%;
+}
+
+button {
+  background-color: #294464;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 135px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+h1,
+h3 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+.color {
+  color: #6f6f6f;
+}
+
+.button-hero {
+  margin-top: 15px;
+}
+
+.footer {
+  margin-left: 25px;
+  color: ##525351;
+}
+
+.nav-button {
+  width: 110px;
+  font-size: 12px;
+}
