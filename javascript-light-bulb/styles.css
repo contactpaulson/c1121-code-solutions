@@ -21,7 +21,7 @@
   background-color: #faea84;
   border-radius: 50%;
   border: none;
-  box-shadow: -5px 0 250px #fef4cc;
+  box-shadow: 0 0 20px 20px #fef4cc;
 }
 
 .button.off {
@@ -30,5 +30,5 @@
   background-color: #222324;
   border-radius: 50%;
   border: none;
-  box-shadow: -5px 0 15px #0c0c0c;
+  box-shadow: 0 0 20px 20px #0c0c0c;
 }
