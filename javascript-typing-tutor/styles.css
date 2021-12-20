@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+span {
+  font-family: 'PT Sans Caption Bold 700', sans-serif;
+  font-size: 35px;
+  font-weight: 1000;
+}
+
+.cursor {
+  border-bottom: 3px solid black;
+}
+
+.correct {
+  color: #18cd1b;
+}
+
+.incorrect {
+  color: red;
+}
